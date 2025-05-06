@@ -3,7 +3,7 @@ from telegram import Update, InputMediaVideo
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 # ضع التوكن هنا أو استخدم متغير بيئة
-BOT_TOKEN = os.getenv("BOT_TOKEN", "ضع_توكن_البوت_هنا")
+BOT_TOKEN = os.getenv("BOT_TOKEN","8120648669:AAH0BFoXsOSA1TsiO5c4U2zNzmU0ndvJ1Wk")
 
 # رابط الفيديو من تليجرام
 VIDEO_URL = "https://t.me/a_moment_before/8014"
